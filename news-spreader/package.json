@@ -1,0 +1,23 @@
+{
+  "name": "news-spreader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kafkajs/confluent-schema-registry": "^3.0.1",
+    "kafkajs": "^1.15.0",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.6",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0"
+  }
+}

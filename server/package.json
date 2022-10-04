@@ -1,0 +1,20 @@
+{
+  "name": "simulateur_pari_backend",
+  "version": "1.0.0",
+  "description": "a game simulateur or tester",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "iz_o",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.10",
+    "mongoose": "^5.13.2"
+  }
+}
